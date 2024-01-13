@@ -1,0 +1,33 @@
+# MacOs
+.DS_Store
+.AppleDouble
+.LSOverride
+# Icon must end with two \r
+Icon
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Golang
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+go.sum
+/go.mod
+
+# Tailwind CSS
+node_modules/
+npm-debug.log
+
+# htmx
+.htmx-cache/
+
+# Docker
+.DS_Store
+docker-compose.override.yml
