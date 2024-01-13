@@ -27,15 +27,19 @@ List the things you need to install the software and how to install them. For ex
 To run this project on your local setup, follow these steps:
 
 1. **Clone the repo**:
+
 ``git clone git@github.com:samoei/acromate.git``
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory**:
+
 ``cd acromate``
 
 3. **Set up your environment variables, database, or other dependencies**:
+
 ``@TODO - Instructions coming soon!``
 
 4. **Run the application**:
+
 ``go run backend/main.go``
 
 
@@ -67,4 +71,3 @@ This project is licensed under the [MIT License](LICENSE.md) - see the LICENSE.m
 
 ## Acknowledgments
 A special thanks to those who inspired and provided resources for this project. More detailed acknowledgments coming soon!
-

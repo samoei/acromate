@@ -1,0 +1,48 @@
+openapi: 3.0.0
+info:
+  title: AcroMate API
+  description: API for the AcroMate Abbreviations & Acronyms Dictionary.
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:8080
+    description: Local Development Server
+
+paths:
+  /abbreviation/{abbr}:
+    get:
+      summary: Get the definition of an abbreviation
+      operationId: getAbbreviation
+      tags:
+        - Abbreviation
+      parameters:
+        - name: abbr
+          in: path
+          required: true
+          description: The abbreviation to find
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successfully found the abbreviation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AbbreviationResponse'
+        '404':
+          description: Abbreviation not found
+
+components:
+  schemas:
+    AbbreviationResponse:
+      type: object
+      properties:
+        name:
+          type: string
+          description: The name of the abbreviation
+        meaning:
+          type: string
+          description: The meaning of the abbreviation
+        category:
+          type: string
+          description: The category of the abbreviation
