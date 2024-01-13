@@ -1,23 +1,29 @@
-# Project Name: [Your Project Name]
-A brief, one-liner description of what your project does.
+# Project Name: AcroMate
+Tired of wondering what acronym means, find it here.
 
 ## Introduction
-A few sentences explaining the purpose of the project:
-- What problem does it solve?
-- Who is it for?
-- What does it do?
+This project is born out of a personal and professional necessity - to demystify the world of acronyms and abbreviations. It serves a dual purpose: firstly, as a practical tool to navigate the often confusing sea of shortened forms found in documents and workplace communication. Secondly, it's a journey of learning and solidifying my skills in Golang, complemented by exploring the realms of HTMX and Tailwind CSS. 
+
+- **What problem does it solve?**
+  The project addresses the common frustration of encountering acronyms and abbreviations in professional settings or technical documents and not knowing their meanings. It's particularly useful for anyone new to a job, field, or even a country, where such abbreviations are frequently used without explanation.
+
+- **Who is it for?**
+  It's designed for professionals, students, and anyone who, like me, finds themselves puzzled by the myriad of acronyms and abbreviations encountered in daily work or study. It's also a tool for personal growth and reference, helping users to quickly compile and understand company-specific or industry-specific jargon.
+
+- **What does it do?**
+  The project offers a user-friendly platform to search, understand, and learn various acronyms and abbreviations. Users can contribute by adding new terms, making it a collaborative and ever-growing resource. The aim is to make this tool a personal aide in untangling the web of short forms, thereby enhancing understanding and communication in professional environments.
+
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 List the things you need to install the software and how to install them. For example:
-- Golang [version]
-- Docker for running PostgreSQL
-- Any other software or tools needed
+- Golang [1.21.3]
+- Docker
 
 ### Installing
-Step by step series of examples that tell you how to get a development environment running. For example:
+To run this project on your local setup follow the following steps:
 
 1. Clone the repo:
 ``git clone [repository URL]``
