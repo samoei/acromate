@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/samoei/acromate/backend/api"
+)
 
 func main() {
-	fmt.Println("Weclome to AcroMate!")
+	e := api.NewServer()
+	e.Start(":42069")
 }
