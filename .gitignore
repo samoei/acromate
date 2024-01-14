@@ -1,33 +1,40 @@
-# MacOs
-.DS_Store
-.AppleDouble
-.LSOverride
-# Icon must end with two \r
-Icon
+# Compiled Go binaries and executables
+/bin/
+/pkg/
 
-# VSCode
-.vscode/
-*.code-workspace
-
-# Golang
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-*.test
-*.out
-vendor/
+# Dependency directories (remove these lines if you want to include dependencies in your repo)
+/vendor/
+Gopkg.lock
 go.sum
-/go.mod
 
-# Tailwind CSS
-node_modules/
-npm-debug.log
+# Compiled static assets with Tailwind CSS
+/dist/
 
-# htmx
-.htmx-cache/
+# HTMX frontend build artifacts
+/frontend/build/
+/frontend/.cache/
 
-# Docker
+# macOS system files
 .DS_Store
-docker-compose.override.yml
+
+# Visual Studio Code settings
+.vscode/
+
+# Docker files
+*.log
+docker-compose*.yml
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# General
+*.log
+*.sql
+*.sqlite
+*.swp
+*~
+._*
